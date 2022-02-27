@@ -1,0 +1,243 @@
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 20px;
+    position: relative;
+}
+.nav li a{
+    font-size: 20px;
+    color: #ffbd11;
+    text-decoration: none;
+}
+.nav li a:hover{
+    opacity: 0.5;
+}
+.header{
+    padding: 20px 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(121, 56, 148, 0.8);
+}
+.logo img{
+    height: 55px;
+}
+.sub-menu{
+    display: block !important;
+    position: absolute;
+    left: 0;
+    width: 230px;
+    background-color: #411855;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.sub-menu li{
+    margin-left: 20px;
+}
+.nav ul li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.banner{
+    height: 100vh;
+    overflow: hidden;
+}
+.banner video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.banner-new{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 88px;
+}
+.banner-new img{
+    width: 370px;
+}
+.hover{
+    padding: 20px 0;
+}
+.card{   
+    margin: 20px 10px;
+    padding: 0 0 5px;
+    position: relative;
+    width: 250px;
+}
+.ao{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* margin: 50px; */
+}
+.personal-img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.personal-img img{
+    height: 100%;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: 0.5s;
+    visibility: hidden;
+    overflow: hidden;
+}
+.img2 img{
+    height: 100%;
+}
+.ao:hover .img2{
+    opacity: 1;
+    visibility: visible;
+}
+.chu{
+    height: 190px;
+    overflow: hidden;  
+    margin: 10px 45px;
+}
+.chu img{
+    width: 160px;       
+}
+/* hover */
+.banner1{
+    background-color: #793894;
+    padding: 0px;
+    position: relative;
+}
+.banner01{
+    width: 1110px;
+    height: 100px;
+    overflow: hidden;
+}
+.banner01 img{
+    height: 100%;
+}
+.banner01-ct{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* banner1 */
+
+.hat{
+    background-color: #ffcb08;
+}
+.card-hat{
+    background-color: white;
+    margin: 20px 10px 0;
+    height: 280px;
+    position: relative;
+    border-radius: 8%;
+}
+.hat-img{
+    height: 258px;
+    overflow: hidden;
+}
+.hat-img img{
+    width: 100%;
+}
+.hat-ct a{
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 71px;
+}
+/* hat */
+.shoe{
+    background-color: #ffcb08;
+}
+.card-shoe{
+    background-color: white;
+    margin: 20px 10px;
+    height: 280px;
+    position: relative;
+    border-radius: 8%;
+}
+.shoe-img{
+    height: 258px;
+    overflow: hidden;
+}
+.shoe-img img{
+    width: 100%;
+}
+.shoe-ct{
+    position: absolute;
+    bottom: 5px;
+}
+.shoe-ct a{
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 58px;
+}
+/* shoe */
+.banner2{
+    background-color: #8ad1cd;
+    padding: 0px;
+    position: relative;
+}
+.banner02{
+    width: 1110px;
+    height: 200px;
+    overflow: hidden;
+}
+.banner02 img{
+    height: 100%;
+}
+.banner2-ct{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner2-ct h1{
+    margin-bottom: 20px;
+}
+/* banner2 */
+.footer{
+    background-color: #793894;
+    padding: 50px 0;
+}
+.logo2{
+    height: 170.4143px;
+    overflow: hidden;
+}
+.logo2 img{
+    width: 184.8617px;
+}
+.hethong-ch h1{
+    padding-bottom: 20px;
+}
+.hethong-ch ul{
+    list-style: none;
+}
+.footer-ct{
+    padding: 30px 0 40px;
+}
+.footer-ct ul{
+    list-style: none;
+}
+.footer-ct li a{
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+/* footer */
+.footer2{
+    background-color: #ffcb08;
+}

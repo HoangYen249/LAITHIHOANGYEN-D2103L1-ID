@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffcb08;
+    font-size: 14px;
+    line-height: 25px;
+}
+a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Bungee', cursive;
+    color: #ffcb08;
+    line-height: 50px;
+}
+.font-italic{
+    font-style: italic;
+}
+.font-bold{
+    font-weight: bold;
+}
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+.color-green{
+    color: #0d504e;
+}
+.color-violet{
+    color: #793894;;
+}
+.bg-yellow{
+    background-color: #ffcb08;
+}
+.bg-red{
+    background-color: #9d0b0e;
+}
+.bg-pink{
+    background-color: #ee3f58;
+}
+.bg-green{
+    background-color: #a3c03a;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .row>[class*="col-"]{
+    padding: 10px;
+} */
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.align-items-top{
+    align-items: flex-start;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-bottom{
+    align-items: flex-end;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.btn{
+    color: #0d504e;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn-banner2{
+    padding: 10px 100px;
+    background-color: white;
+    border-radius: 40px;
+    width: 600px;
+}
+.margin-left-50{
+    margin-left: 50px;
+}
